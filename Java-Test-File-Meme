@@ -1,0 +1,36 @@
+public class Pounded{
+
+		public static void main (String args[]) {
+
+			double pounds = 0;
+			double kilos = 0;
+			double x = 2.20462262185;
+
+			
+			System.out.println("This program will convert pounds to kilos ");	
+			System.out.println("Please give your lbs value: ");
+			pounds = SavitchIn.readLineDouble();
+
+
+			kilos = pounds / x;
+
+
+			if( kilos < 100) {
+
+				System.out.println(kilos + " kg, Ilaw ka ba kasi you're so Light");
+
+
+			}
+			else {
+				System.out.println(kilos + " kg, Pabigat ka sa puso ko");
+
+
+			}
+
+
+		}
+
+
+
+
+}
